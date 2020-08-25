@@ -6,32 +6,28 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var r = new Random();
-            var favNumber = r.Next(1, 1000);
-            int userInput;
+            Console.WriteLine("What is your favorite subject?");
+            string favSub = Console.ReadLine();
 
-            Console.WriteLine("Guess my age");
-
-            do
+            switch (favSub.ToLower())
             {
-                userInput = int.Parse(Console.ReadLine());
+                case "math":
+                    Console.WriteLine("Numbers are everything");
+                    break;
+                case "science":
+                    Console.WriteLine("A curious mind I see");
+                    break;
+                case "english":
+                    Console.WriteLine("We have a poet among us");
+                    break;
 
-                if (userInput > favNumber)
-                {
-                    Console.WriteLine("Too High!");
-                }
-                else if (userInput < favNumber)
-                {
-                    Console.WriteLine("Too Low!");
-                }
-                else if (userInput == favNumber)
-                {
-                    Console.WriteLine("Ding! Ding! Ding! We have a winner!");
-                }
-            } while (userInput != favNumber);
+                default:
+                    Console.WriteLine("Beat to the sound of your own drum eh");
+                    break;
+                                                      
 
-            
-                    
+            }
+                   
         }
     }
 }

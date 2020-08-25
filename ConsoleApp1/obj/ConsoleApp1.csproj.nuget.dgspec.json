@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Abraham\\TrueCoders\\Repos\\Selection-Statements\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Abraham\\TrueCoders\\Repos\\SelectionStatements\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Abraham\\TrueCoders\\Repos\\Selection-Statements\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Abraham\\TrueCoders\\Repos\\SelectionStatements\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Abraham\\TrueCoders\\Repos\\Selection-Statements\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Abraham\\TrueCoders\\Repos\\SelectionStatements\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Abraham\\TrueCoders\\Repos\\Selection-Statements\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Abraham\\TrueCoders\\Repos\\SelectionStatements\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Abraham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Abraham\\TrueCoders\\Repos\\Selection-Statements\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Abraham\\TrueCoders\\Repos\\SelectionStatements\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Abraham\\AppData\\Roaming\\NuGet\\NuGet.Config",
