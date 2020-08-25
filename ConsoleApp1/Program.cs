@@ -8,21 +8,29 @@ namespace ConsoleApp1
         {
             var r = new Random();
             var favNumber = r.Next(1, 1000);
+            int userInput;
 
-            var userInput = int.Parse(Console.ReadLine());
+            Console.WriteLine("Guess my age");
 
-            if (userInput > 13)
+            do
             {
-                Console.WriteLine("Too High!");
-            }
-            else if (userInput < 13)
-            {
-                Console.WriteLine("Too Low!");
-            }
-            else if (userInput == 13)
-            {
-                Console.WriteLine("Ding! Ding! Ding! We have a winner!");
-            }
+                userInput = int.Parse(Console.ReadLine());
+
+                if (userInput > favNumber)
+                {
+                    Console.WriteLine("Too High!");
+                }
+                else if (userInput < favNumber)
+                {
+                    Console.WriteLine("Too Low!");
+                }
+                else if (userInput == favNumber)
+                {
+                    Console.WriteLine("Ding! Ding! Ding! We have a winner!");
+                }
+            } while (userInput != favNumber);
+
+            
                     
         }
     }
